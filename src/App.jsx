@@ -11,8 +11,9 @@ import Footer from './Footer';
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar />
+      
       <main>
+      <Navbar />
         <BannerSlider />
         <Vendors />
         <Awards />
