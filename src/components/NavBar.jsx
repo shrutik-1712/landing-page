@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import CompanyLogo from '../assets/logo.svg';
-import Brochure from '../assets/brochure.pdf';
+import Brochure from '../assets/Brochure.pdf';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
