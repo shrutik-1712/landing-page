@@ -1,22 +1,47 @@
 import React from 'react';
 //ventdors 
-import Assab from '../assets/Vendors/ASSAB.png'
-import Hasco from '../assets/Vendors/HASCO-Logo.jpg'
-import Honeywell from '../assets/Vendors/Honeywell.png'
-import YUDO from '../assets/Vendors/YUDO.png'
-
+import Assab from '../assets/Vendors/ASSAB LOGO.jpg'
+import Hasco from '../assets/Vendors/HASCO.jpg'
+import Honeywell from '../assets/Vendors/HONEYWELL.bmp'
+import YUDO from '../assets/Vendors/YUDO.bmp'
+import Bohiler from '../assets/Vendors/BOHLER.bmp'
+import Husky from '../assets/Vendors/HUSKY.bmp'
+import Infuse from '../assets/Vendors/INFUSE.bmp'
+import Progressive from '../assets/Vendors/PROGRESSIVE.bmp'
+import Moldmaster from '../assets/Vendors/MOLDMASTER.bmp'
+import Meusburger from '../assets/Vendors/MEUSBURGER.bmp'
+import Syentive from '../assets/Vendors/SYENTIVE.bmp'
+import Uddenholm from '../assets/Vendors/UDDEHOLM.bmp'
 //clients
-import Tata from '../assets/Clients/Tata.jpg'
-import AshokLayland from '../assets/Clients/AshokLayland.png'
-import Godrej from '../assets/Clients/Godrej.jpg'
-import Nilkamal from '../assets/Clients/Nilkamal.jpg'
-import samvardhana from '../assets/Clients/samvardhana.jpg'
+import Tata from '../assets/Clients/TATA.bmp'
+import AshokLayland from '../assets/Clients/ASHOK.bmp'
+import Godrej from '../assets/Clients/GODREJ.bmp'
+import Nilkamal from '../assets/Clients/NILKAMAL.bmp'
+import Piaggio from '../assets/Clients/PIAGGIO.bmp'
+import Eicher from '../assets/Clients/EICHER.bmp'
+import Iac from '../assets/Clients/IAC.bmp'
+import MotherSon from '../assets/Clients/MOTHERSON.bmp'
+import River from '../assets/Clients/RIVER.bmp'
+import STL from '../assets/Clients/STL.bmp'
+import Smr from '../assets/Clients/SMR.bmp'
+import Supbros from '../assets/Clients/SUBROS.bmp'
+import Supreme from '../assets/Clients/SUPREME.bmp'
+import Varroc from '../assets/Clients/VARROC.bmp'
+import Schoolnet from '../assets/Clients/SCHOOLNET.bmp'
 const Vendors = () => {
   const vendors = [
     { name: 'ASSAB', image: Assab },
     { name: 'Hasco', image: Hasco },
     { name: 'Honeywell', image: Honeywell },
     { name: 'YUDO', image: YUDO },
+    { name:'Bohiler', image: Bohiler  },
+    { name:'Husky', image: Husky  },
+    { name:'Infuse', image:Infuse   },
+    { name:'Progressive', image:Progressive   },
+    { name:'Moldmaster', image: Moldmaster  },
+    { name:'Meusburger', image: Meusburger  },
+    { name:'Syentive', image: Syentive  },
+    {name:'Uddenholm', image: Uddenholm}
   ];
 
   const clients = [
@@ -24,7 +49,17 @@ const Vendors = () => {
     { name: 'Ashok Layland',  image: AshokLayland },
     { name: 'Godrej', image: Godrej },
     { name: 'Nilkamal',  image: Nilkamal },
-    { name: 'samvardhana',  image:  samvardhana },
+    { name: 'Piaggio',  image:  Piaggio },
+    { name: 'Eicher',  image:Eicher   },
+    { name: 'Iac',  image:  Iac },
+    { name: 'MotherSon',  image:  MotherSon },
+    { name: 'River',  image:  River },
+    { name: 'STL',  image: STL  },
+    { name: 'Smr',  image:Smr   },
+    { name: 'Supbros',  image:Supbros   },
+    { name: 'Supreme',  image: Supreme  },
+    { name: 'Varroc',  image:  Varroc },
+    { name: 'Schoolnet',  image: Schoolnet  },
   ];
 
   return (
@@ -43,7 +78,7 @@ const Vendors = () => {
                   alt={vendor.name}
                   className="w-full h-auto mb-4 rounded"
                 />
-                <h3 className="text-xl font-semibold text-center">{vendor.name}</h3>
+                
               </div>
             ))}
           </div>
@@ -64,7 +99,7 @@ const Vendors = () => {
                   alt={client.name}
                   className="w-full h-auto mb-4 "
                 />
-                <h3 className="text-xl font-semibold mb-2 text-center">{client.name}</h3>
+                
                 
               </div>
             ))}

@@ -7,7 +7,7 @@ const addresses = [
     title: 'Headquarters',
     address: '123 Main Street, City, Country',
     phone: '+1 234 567 890',
-    mapUrl: 'https://www.google.com/maps/embed?pb=YOUR_HEADQUARTERS_EMBED_URL'
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7604.76483007556!2d72.86242!3d19.404515000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7af2d4383856b%3A0x1b0cd71bf6ef063!2sOm%20Galaxy%20Precision%20Mould%20crafts%20Pvt%20Ltd!5e1!3m2!1sen!2sin!4v1736258535289!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
   },
   {
     title: 'Regional Office',
