@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="text-xl font-bold mb-4">About Us</h3>
-            <p className="text-gray-400">
-              Leading provider of innovative solutions for industries worldwide.
+            <p className="text-gray-400 justify-center">
+            OMG Auto moulds is part of Om Galaxy Group, specializing in Design & Manufacturing moulds of the Automotive & the White Goods Industry.
             </p>
           </div>
           <div className="space-y-4">
