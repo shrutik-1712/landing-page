@@ -5,21 +5,21 @@ import { useInView } from 'react-intersection-observer';
 const addresses = [
   {
     title: 'Headquarters',
-    address: 'Plot No 14, Gauriapada Agro Vruksh Lagwad CHS Ltd. Survey No 198, Hissa No 5/1 Part, Village Gokhiware, Taluka Vasai, Palghar 401208',
-    phone: '+1 234 567 890',
-    mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7604.76483007556!2d72.86242!3d19.404515000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7af2d4383856b%3A0x1b0cd71bf6ef063!2sOm%20Galaxy%20Precision%20Mould%20crafts%20Pvt%20Ltd!5e1!3m2!1sen!2sin!4v1736258535289!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+    address: '4,5,6 Blue chip ind estate 5,Sativali Road,Waliv Fata Behind Modi Hyundai; Vasai Rd, Road, near Real ind estate, Vasai-Virar, Maharashtra 401208',
+    phone: '+91-8605996655 / 44 / 22 | +91-98924 23179',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7604.76483007556!2d72.86242!3d19.404515000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7af2d4383856b%3A0x1b0cd71bf6ef063!2sOm%20Galaxy%20Precision%20Mould%20crafts%20Pvt%20Ltd!5e1!3m2!1sen!2sin!4v1736258535289!5m2!1sen!2sin" '
   },
   {
-    title: 'Regional Office',
-    address: '456 Business Ave, City, Country',
-    phone: '+1 234 567 891',
-    mapUrl: 'https://www.google.com/maps/embed?pb=YOUR_REGIONAL_EMBED_URL'
+    title: 'Office-1',
+    address: 'Survey No 14/3 ,Gala No 2, Near Suraksha Marin, Chinchoti Bhiwandi Road , Opposite Universal College ,Poman,Vasai(E), Palghar 401208',
+    phone: '+91-8605996655 / 44 / 22 | +91-98924 23179',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3803.496369011422!2d72.9230833!3d19.356805599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDIxJzI0LjUiTiA3MsKwNTUnMjMuMSJF!5e1!3m2!1sen!2sin!4v1736268809165!5m2!1sen!2sin'
   },
   {
-    title: 'Manufacturing Unit',
-    address: '789 Industrial Blvd, City, Country',
-    phone: '+1 234 567 892',
-    mapUrl: 'https://www.google.com/maps/embed?pb=YOUR_MANUFACTURING_EMBED_URL'
+    title: 'Office-2',
+    address: 'Plot No 63/9 , Chakan MIDC, Phase 3, Opp.Radhesham WellPack, Near Siddhivinayak Hotel,Taluka Khed,Pune-410501',
+    phone: '+91-8605996655 / 44 / 22 | +91-98924 23179',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3463.721135998545!2d73.83134207519674!3d18.726499982407358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDQzJzM1LjQiTiA3M8KwNTAnMDIuMSJF!5e1!3m2!1sen!2sin!4v1736268983167!5m2!1sen!2sin'
   }
 ];
 
