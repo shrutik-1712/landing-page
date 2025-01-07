@@ -1,7 +1,7 @@
 import React from 'react'
 import BannerSlider from './BannerSlider'
 import Vendors from './Vendors'
-import Awards from './Awards'
+// import Awards from './Awards'
 import Footer from './Footer'
 import Navbar from './NavBar'
 import Contact from './Contact'
@@ -11,7 +11,7 @@ const HomePage = () => {
         <Navbar />
         <BannerSlider />
         <Vendors />
-        <Awards />
+        {/* <Awards /> */}
         <Contact />
         <Footer/>
     </>

@@ -98,7 +98,7 @@ const EnquiryForm = () => {
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           <div className="px-4 sm:px-6 lg:px-8 py-6">
             <h1 className="text-xl sm:text-2xl font-bold text-center text-blue-600 mb-8">
-              Client Enquiry Form
+            OM Galaxy - Enquiry Form
             </h1>
             
             <div className="w-full">
